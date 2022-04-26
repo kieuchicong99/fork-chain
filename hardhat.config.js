@@ -7,7 +7,8 @@ module.exports = {
     hardhat: {
       forking: {
         url: "https://bsc-dataseed.binance.org",
-        blockNumber: 14373441
+        blockNumber: 14373441,
+        chainId: 56
       }
     }
   },
